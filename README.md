@@ -1,0 +1,1 @@
+In this repository we will add different python exercices from internet
