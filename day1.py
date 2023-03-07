@@ -12,5 +12,4 @@ def divide_or_square(number):
     else:
         return number % 5 
 
-
 print(divide_or_square(35))
