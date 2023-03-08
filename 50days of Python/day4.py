@@ -18,3 +18,4 @@ def only_floats(a,b):
 print(only_floats(12.1, 13.2))
 print(only_floats(12.0, 13.2))
 print(only_floats(12, 13))
+print(only_floats(12.1, 13))
