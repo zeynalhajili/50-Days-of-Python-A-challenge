@@ -7,8 +7,14 @@ the code should return ben as their user name
 """
 
 def user_name():
-    full_details =input("Please enter e-mail address: ")
-    name =full_details.split("@")[0]
-    print("Username for provided mail address is {}".format(name.capitalize()))
-
+    try:
+        full_details =input("Please enter e-mail address: \n")
+        name =full_details[:full_details.index("@")]
+        print("Username for provided mail address is {}".format(name.capitalize())) 
+    except ValueError:
+        print("Please enter valid email address!")
+    
 user_name()
+
+
+
