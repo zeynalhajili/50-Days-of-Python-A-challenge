@@ -23,6 +23,6 @@ def hide_password():
 # print(hide_password())
 
 def convert_numbers(input_list):
-    new_list_with_numbers=['{:,.0f}'.format(i) for i in input_list] # list comprehension
+    new_list_with_numbers=['{:,.0f}'.format(i) for i in input_list] # list comprehension ,0f will format the number as an integer with a thousands separator
     return new_list_with_numbers
 print(convert_numbers([1000000, 2356989, 2354672, 9878098]))
