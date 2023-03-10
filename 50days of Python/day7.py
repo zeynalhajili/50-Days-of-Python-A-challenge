@@ -8,8 +8,10 @@ if you pass 6 as an argument, your function should return ‘0.1.2.3.4.5’.
 def string_range(initial_number):
     list_with_numbers= []
     for i in range(initial_number):
-        list_with_numbers.append(i)
-    print(list_with_numbers)
+        list_with_numbers.append(str(i))
+    return ".".join(list_with_numbers)
 
-string_range(7)
-string_range(9)
+x = string_range(7)
+y = string_range(90)
+print(x)
+print(y)
