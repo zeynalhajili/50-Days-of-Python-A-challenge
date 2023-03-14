@@ -9,8 +9,8 @@ code can handle ValueError. Ensure the code runs until valid numbers are entered
 """
 
 def your_vat():
-    price_of_item = int(input("Please enter price of item: \n"))
-    price_vat = int(input("Please enter VAT: \n"))
+    price_of_item = float(input("Please enter price of item: \n"))
+    price_vat = float(input("Please enter VAT: \n"))
     while True:
         try:
             if price_of_item < 0 or price_vat < 0:
