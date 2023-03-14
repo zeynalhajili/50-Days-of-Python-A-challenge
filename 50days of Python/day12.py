@@ -54,3 +54,17 @@ def age_in_minutes():
         print("Please enter valid year!")
 age_in_minutes()
 
+# from datetime import date
+
+# def age_in_minutes():
+#     current_year = date.today().year
+#     try:
+#         birth_year = int(input("Please enter the year you were born: "))
+#         if birth_year < 1900 or birth_year > current_year:
+#             raise ValueError
+#         delta_year_with_minute = (current_year - birth_year) * 365 * 24 * 60
+#         print(f'You have lived {delta_year_with_minute:,.0f} minutes.')
+#     except ValueError:
+#         print("Please enter a valid year.")
+
+# age_in_minutes()
