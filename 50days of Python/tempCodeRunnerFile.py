@@ -1,1 +1,0 @@
-gross_salary
