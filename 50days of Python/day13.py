@@ -20,8 +20,5 @@ def your_vat():
             break
         except ValueError:
             return "Please enter correct value!"
-            
+
 print(your_vat())
-
-
-
