@@ -22,4 +22,5 @@ def count_elements(input_string):
 
 print(count_words("CloudFormation is a powerful automation service within AWS. It can be used to create simple or complex sets of infrastructure any number of times. This hands-on lab provides a gentle introduction to CloudFormation, using it to create and update a number of S3 buckets. By the end of this hands-on lab, you will be comfortable using CloudFormation and can begin experimenting with your own templates."))
 print(count_elements("CloudFormation is a powerful automation service within AWS. It can be used to create simple or complex sets of infrastructure any number of times. This hands-on lab provides a gentle introduction to CloudFormation, using it to create and update a number of S3 buckets. By the end of this hands-on lab, you will be comfortable using CloudFormation and can begin experimenting with your own templates."))
-
+print(count_words('I love learning'))
+print(count_elements('I love learning'))
