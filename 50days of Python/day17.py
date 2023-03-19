@@ -7,9 +7,9 @@ should return the username.
 """
 import random 
 
-def user_name(input_name):
+def user_name():
+    input_name = input("Please input your name please: ")
     random_number =random.randint(0,9)
     return  input_name[::-1] + str(random_number)
 
-print(user_name("Zeynal"))
-
+print(user_name())
