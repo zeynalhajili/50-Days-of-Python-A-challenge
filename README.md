@@ -1,5 +1,1 @@
-In this repository we will add different python exercices from internet
-
-Content in order
-
-* 50 Days of Python A challenge a Day2.pdf
+In this repository we will add different python exercices from book called "50 Days of Python A challenge"
