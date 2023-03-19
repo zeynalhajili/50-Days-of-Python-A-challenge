@@ -6,7 +6,7 @@ should return False. For example, ‘dad’ should return True, because it reads
 in reverse.
 """
 def same_in_reverse(user_input):
-    if user_input[::-1] == user_input[::]:
+    if user_input[::-1] == user_input:
         return True
     else:
         return False
