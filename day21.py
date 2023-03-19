@@ -6,4 +6,7 @@ them into a list of tuples. For example if list a is [1,2,3,4] and list b is
 """
 
 def make_tuples(list_a,list_b):
-    
+    final_list = list(zip(list_a,list_b))
+    return final_list
+
+print(make_tuples([1,2,3,4], [5,6,7,8]))
