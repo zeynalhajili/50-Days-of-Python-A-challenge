@@ -13,3 +13,5 @@ def same_in_reverse(user_input):
 
 print(same_in_reverse("dad"))
 print(same_in_reverse("dad11"))
+print(same_in_reverse("eye"))
+print(same_in_reverse(("0_0 (: /-\ :) 0-0")))
