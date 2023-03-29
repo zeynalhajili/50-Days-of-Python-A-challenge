@@ -6,7 +6,8 @@ from users. The calculator should be able to handle ZeroDivisionError, NameError
 ValueError.
 """
 
-# function to check if input is valid number 
+# function to check if input is valid number ,it will give "True" in case of integer ,float and any decimal number ,
+# we can use this function inside of calculator
 
 def is_valid_number(value):
     try:
