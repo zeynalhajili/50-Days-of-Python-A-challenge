@@ -16,10 +16,16 @@ intake.
 def average_calories():
     list_calory = []
     while True:
-        input_calory =input("Please enter calory: ")
-        if input_calory == "done":
-            break
-        else:
-            list_calory.append(int(input_calory))
-    return f'Average calorie is {sum(list_calory) / len(list_calory):.0f} kcal!'
+        try:
+            input_calory =input("Please enter calory: ")
+            if input_calory == "done":
+                break
+            else:
+                list_calory.append(int(input_calory))
+        except ValueError:
+            print("Please enter valid number!!!")
+
+    return f'Average calory is {sum(list_calory) / len(list_calory):.0f} kcal!'
+
 print(average_calories())
+
