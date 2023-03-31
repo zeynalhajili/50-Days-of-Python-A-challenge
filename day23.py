@@ -47,7 +47,7 @@ def calculator():
         except ZeroDivisionError:
             return "Error: Cannot divide by zero !"
     else:
-        result = f'Result is {float(first_number) * float(second_number):.1f}'
+        result = f'Result is {float(first_number) * float(second_number):.3f}'
     
     return result
 
