@@ -13,5 +13,13 @@ intake.
 # Day 4: 1900 calories
 # Day 5: done
 
-def average_calories()
-    user_input =input()
+def average_calories():
+    list_calory = []
+    while True:
+        input_calory =input("Please enter calory: ")
+        if input_calory == "done":
+            break
+        else:
+            list_calory.append(int(input_calory))
+    return f'Average calorie is {sum(list_calory) / len(list_calory):.0f} kcal!'
+print(average_calories())
